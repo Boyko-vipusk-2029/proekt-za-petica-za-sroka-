@@ -45,6 +45,16 @@ if st.session_state.theme == "dark":
         border-radius: 10px;
         padding: 10px;
     }
+    .stSelectbox label {
+        color: #e0f7ff !important;
+        font-weight: 500;
+    }
+    .stSelectbox div[data-baseweb="select"] {
+        background-color: rgba(255, 255, 255, 0.95) !important;
+    }
+    .stSelectbox div[data-baseweb="select"] > div {
+        color: #1a1a1a !important;
+    }
     div[data-testid="stMetricValue"] {
         color: #66d9ff !important;
         font-size: 28px !important;
