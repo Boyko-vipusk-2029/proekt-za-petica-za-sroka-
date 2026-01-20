@@ -52,6 +52,15 @@ if st.session_state.theme == "dark":
     div[data-testid="stMetricLabel"] {
         color: #b3e0ff !important;
     }
+    p, span, div, label {
+        color: #e0f7ff !important;
+    }
+    .stMarkdown {
+        color: #e0f7ff !important;
+    }
+    .stMarkdown strong {
+        color: #66d9ff !important;
+    }
     </style>
     """, unsafe_allow_html=True)
 else:
